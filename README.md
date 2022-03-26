@@ -11,7 +11,7 @@ photon attach
 
 ```js
 abi = JSON.parse('GOVERNANCE_ABI_OUTPUT')
-// Note: define variable sfcc (instead of sfc) to avoid clashing with the sfc namespace introduced in go-lachesis v0.7.0-rc1.
+// Note: define variable sfcc (instead of sfc) to avoid clashing with the sfc namespace introduced in go-sirius v0.7.0-rc1.
 gov = web3.tpc.contract(abi).at("0x41195c3BACE2CcCEC779fBfEAC7b80E61F9E185a")
 ```
 
